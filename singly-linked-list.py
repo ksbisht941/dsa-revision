@@ -7,90 +7,86 @@ class SinglyLinkedList:
     def __init__(self, head=None):
         self.head = head
 
-    def insertatEnd(self, value):
+    def append(self, value):
+        """Insert a new node with value at the end of the list."""
         temp = Node(value)
 
-        if (self.head == None):
+        # If the list is empty, the new node becomes the head.
+        if self.head is None:
             self.head = temp
             return
 
-        t1 = self.head
+        # Otherwise traverse to the last node.
+        current = self.head
+        while current.next is not None:
+            current = current.next
 
-        while (t1.next != None):
-            t1 = t1.next
+        current.next = temp
 
-        t1.next = temp
-
-
-    def insertAtBeg(self, value):
+    def prepend(self, value):
+        """Insert a new node with value at the beginning of the list."""
         temp = Node(value)
-
-        if (self.head == None):
-            self.head = temp
-            return
-        
         temp.next = self.head
         self.head = temp
 
+    def insert_after(self, value, target):
+        """Insert a new node with value after the first node containing target."""
+        current = self.head
 
-    def insertInBtw(self, value, x):
-        temp = Node(value)
-        t1 = self.head
+        while current is not None:
+            if current.data == target:
+                temp = Node(value, current.next)
+                current.next = temp
+                return
+            current = current.next
 
-        while (t1.next != None):
+        raise ValueError(f"Value {target} not found in the list.")
 
-            if (t1.data == x):
-                temp.next = t1.next
-                t1.next = temp
+    def delete(self, value):
+        """Delete the first node that contains the given value."""
+        current = self.head
+        previous = None
 
-            t1 = t1.next
+        while current is not None:
+            if current.data == value:
+                if previous is None:
+                    # Deleting the head node.
+                    self.head = current.next
+                else:
+                    previous.next = current.next
+                return
+            previous = current
+            current = current.next
 
+        raise ValueError(f"Value {value} not found in the list.")
 
-    def deleteLL(self, value):
-        t1 = self.head
-        prev = t1
-
-        if (self.head.data == value):
-            self.head = t1.next
+    def print_list(self):
+        """Print all node values in list order."""
+        current = self.head
+        if current is None:
+            print("List is empty")
             return
 
-        while (t1.next != None):
+        while current is not None:
+            print(current.data, end=" -> ")
+            current = current.next
 
-            if (t1.data == value):
-                prev.next = t1.next
-                break
-            
-            prev = t1
-            t1 = t1.next
-
-        if (t1.data == value):
-            prev.next = None
+        print(None)
 
 
+if __name__ == "__main__":
+    linkedList = SinglyLinkedList()
+    linkedList.append(50)
+    linkedList.append(60)
+    linkedList.append(70)
 
-    def printLL(self):
-        t1 = self.head
+    linkedList.prepend(30)
+    linkedList.prepend(20)
+    linkedList.prepend(10)
+    linkedList.prepend(0)
 
-        while (t1.next != None):
-            print(t1.data, end=" ")
-            t1 = t1.next
-        
-        print(t1.data)
-
-
-
-linkedList = SinglyLinkedList()
-linkedList.insertatEnd(50)
-linkedList.insertatEnd(60)
-linkedList.insertatEnd(70)
-
-linkedList.insertAtBeg(30)
-linkedList.insertAtBeg(20)
-linkedList.insertAtBeg(10)
-linkedList.insertAtBeg(0)
-
-linkedList.insertInBtw(40, 30)
-
-linkedList.deleteLL(70)
-
-linkedList.printLL()
+    linkedList.insert_after(40, 30)
+    
+    linkedList.delete(0)
+    
+    linkedList.print_list()
