@@ -38,6 +38,7 @@ class SinglyLinkedList:
                 temp = Node(value, current.next)
                 current.next = temp
                 return
+            
             current = current.next
 
         raise ValueError(f"Value {target} not found in the list.")
@@ -87,6 +88,6 @@ if __name__ == "__main__":
 
     linkedList.insert_after(40, 30)
     
-    linkedList.delete(0)
+    linkedList.delete(100)
     
     linkedList.print_list()
