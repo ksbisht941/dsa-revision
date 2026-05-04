@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/contains-duplicate/
 def containsDuplicate(self, nums: List[int]) -> bool:
     seenNumbers = set()
     
