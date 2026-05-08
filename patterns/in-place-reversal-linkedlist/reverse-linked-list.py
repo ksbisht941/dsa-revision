@@ -26,20 +26,33 @@ def reverse_list(head: Optional[ListNode]) -> Optional[ListNode]:
     Time Complexity: O(n)
     Space Complexity: O(1)
     """
-
-    previous = None
-    current = head
+        
+    previous = None                     # prev = None
+    current = head                  # current = 1
 
     while current is not None:
         # Save the next node before changing the current node's next pointer.
-        next_node = current.next
+        next_node = current.next    # Iteration 1: next = 2
+                                    # Iteration 2: next = 3
+                                    # Iteration 3: next = 4
+                                    # Iteration 4: next = None
 
         # Reverse the link so current points to the previous node.
-        current.next = previous
+        current.next = previous     # Iteration 1: 1 -> None
+                                    # Iteration 2: 2 -> 1
+                                    # Iteration 3: 3 -> 2
+                                    # Iteration 4: 4 -> 3
 
         # Move previous and current one step forward.
-        previous = current
-        current = next_node
+        previous = current          # Iteration 1: prev = 1
+                                    # Iteration 2: prev = 2
+                                    # Iteration 3: prev = 3
+                                    # Iteration 4: prev = 4
+
+        current = next_node         # Iteration 1: current = 2
+                                    # Iteration 2: current = 3
+                                    # Iteration 3: current = 4
+                                    # Iteration 4: current = None
 
     return previous
 
