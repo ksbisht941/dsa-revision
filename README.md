@@ -32,6 +32,8 @@ Welcome to the **DSA Revision Hub**! This repository is an organized, programmat
 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Greedy | [View](greedy/lemonade_change.py) |
 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Greedy | [View](greedy/assign_cookies.py) |
 | [Shortest Job First](https://www.naukri.com/code360/problems/sjf_1172165) | Greedy | [View](greedy/shortest_job_first.py) |
+| [Jump Game](https://leetcode.com/problems/jump-game/) | Greedy | [View](greedy/jump_game.py) |
+| [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Strings | [View](strings/length_of_last_word.py) |
 
 ---
 *Keep practicing and improving every day! 🚀*
