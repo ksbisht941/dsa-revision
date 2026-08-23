@@ -34,6 +34,11 @@ Welcome to the **DSA Revision Hub**! This repository is an organized, programmat
 | [Shortest Job First](https://www.naukri.com/code360/problems/sjf_1172165) | Greedy | [View](greedy/shortest_job_first.py) |
 | [Jump Game](https://leetcode.com/problems/jump-game/) | Greedy | [View](greedy/jump_game.py) |
 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Strings | [View](strings/length_of_last_word.py) |
+| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Two Pointers | [View](two-pointers/trapping_rain_water.py) |
+| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | [View](math/palindrome_number.py) |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two Pointers | [View](two-pointers/container_with_most_water.py) |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | [View](stack/valid_parentheses.py) |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | [View](two-pointers/valid_palindrome.py) |
 
 ---
 *Keep practicing and improving every day! 🚀*
