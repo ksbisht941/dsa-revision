@@ -6,8 +6,30 @@ class Solution:
         :type s: str
         :rtype: int
         """
-        # TODO: Implement this method
-        raise NotImplementedError("Implement your solution here")
+        # Approch 1
+        # right = len(s) - 1
+
+        # while right >= 0 and s[right] == " ":
+        #     right -= 1
+
+        # max_len = 0
+        # while right >= 0 and s[right] != " ":
+        #     right -= 1
+        #     max_len += 1
+
+        # return max_len
+
+        # Approch 2
+        max_len = 0
+
+        for idx in range(len(s) - 1, -1, -1):
+            if s[idx] == " " and max_len > 0:
+                break
+
+            if s[idx] != " ":
+                max_len += 1
+
+        return max_len
 
 if __name__ == "__main__":
     test_cases = [
