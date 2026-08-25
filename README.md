@@ -40,6 +40,7 @@ Welcome to the **DSA Revision Hub**! This repository is an organized, programmat
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | [View](stack/valid_parentheses.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | [View](two-pointers/valid_palindrome.py) |
 | [Min Stack](https://leetcode.com/problems/min-stack/) | Stack | [View](stack/min_stack.py) |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Stack | [View](stack/next_greater_element_i.py) |
 
 ---
 *Keep practicing and improving every day! 🚀*
