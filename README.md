@@ -39,6 +39,7 @@ Welcome to the **DSA Revision Hub**! This repository is an organized, programmat
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two Pointers | [View](two-pointers/container_with_most_water.py) |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | [View](stack/valid_parentheses.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | [View](two-pointers/valid_palindrome.py) |
+| [Min Stack](https://leetcode.com/problems/min-stack/) | Stack | [View](stack/min_stack.py) |
 
 ---
 *Keep practicing and improving every day! 🚀*
