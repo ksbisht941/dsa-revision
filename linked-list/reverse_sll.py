@@ -2,8 +2,14 @@ from single_linked_list import SingleLinkedList
 
 def reverse_sll(linked_list):
     """Reverses the linked list in place and updates linked_list.head."""
-    # TODO: Implement this method
-    raise NotImplementedError("Implement your solution here")
+    current = linked_list.head
+    prev = None
+    while current:
+        next = current.next
+        current.next = prev
+        prev = current
+        current = next
+    linked_list.head = prev
 
 
 if __name__ == "__main__":
