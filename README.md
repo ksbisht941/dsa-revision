@@ -37,11 +37,14 @@ Welcome to the **DSA Revision Hub**! This repository is an organized, programmat
 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Two Pointers | ✅ Solved | [View](two-pointers/trapping_rain_water.py) |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | ✅ Solved | [View](math/palindrome_number.py) |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two Pointers | ✅ Solved | [View](two-pointers/container_with_most_water.py) |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | 🚧 Attempting | [View](stack/valid_parentheses.py) |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack | ✅ Solved | [View](stack/valid_parentheses.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Two Pointers | ✅ Solved | [View](two-pointers/valid_palindrome.py) |
 | [Min Stack](https://leetcode.com/problems/min-stack/) | Stack | ✅ Solved | [View](stack/min_stack.py) |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Stack | 🚧 Attempting | [View](stack/next_greater_element_i.py) |
-| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Binary Search | ❌ Not Attempted | [View](binary-search/search_insert_position.py) |
+| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Binary Search | ✅ Solved | [View](binary-search/search_insert_position.py) |
+| [Implement Upper Bound](https://www.naukri.com/code360/problems/implement-upper-bound_8165383) | Binary Search | 🚧 Attempting | [View](binary-search/implement_upper_bound.py) |
+| [Occurrence of X in a Sorted Array](https://www.naukri.com/code360/problems/occurrence-of-x-in-a-sorted-array_630456) | Binary Search | 🚧 Attempting | [View](binary-search/occurrence_of_x.py) |
+| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | 🚧 Attempting | [View](binary-search/find_first_and_last_position.py) |
 
 ---
 *Keep practicing and improving every day! 🚀*
