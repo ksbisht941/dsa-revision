@@ -45,6 +45,9 @@ Welcome to the **DSA Revision Hub**! This repository is an organized, programmat
 | [Implement Upper Bound](https://www.naukri.com/code360/problems/implement-upper-bound_8165383) | Binary Search | 🚧 Attempting | [View](binary-search/implement_upper_bound.py) |
 | [Occurrence of X in a Sorted Array](https://www.naukri.com/code360/problems/occurrence-of-x-in-a-sorted-array_630456) | Binary Search | 🚧 Attempting | [View](binary-search/occurrence_of_x.py) |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | 🚧 Attempting | [View](binary-search/find_first_and_last_position.py) |
+| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | 🚧 Attempting (Timeout) | [View](binary-search/search_in_rotated_sorted_array.py) |
+| [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | Stack | ✅ Solved | [View](stack/remove_k_digits.py) |
+| [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | Stack | 🚧 Attempting | [View](stack/online_stock_span.py) |
 
 ---
 *Keep practicing and improving every day! 🚀*
